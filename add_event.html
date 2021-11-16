@@ -19,7 +19,29 @@
         <br>
         <hr>
     </header>
-    
+    <h1>Ajouter un évènement</h1>
+    <form action="" method="get">
+        <div>
+          <label for="title">Titre</label>
+          <input type="text" name="title" id="title" required>
+        </div>
+        <div>
+          <label for="description">Description </label>
+          <input type="text" name="description" id="description" required>
+        </div>
+        <div>
+            <label for="Price">Prix </label>
+            <input type="number" name="Price" id="Price" required>
+        </div>
+        <label for="photo">Photo de l'évènement:</label>
+        <input type="file"
+               id="photo" name="photo"
+               accept="image/png, image/jpeg">
+        <div>
+          <input type="submit" value="Créer un évènement">
+        </div>
+      </form>
+      
     <footer>
         <hr>
         <a href="#">Mentions légales</a>
