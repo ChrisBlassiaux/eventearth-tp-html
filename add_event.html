@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ajouter un évènement</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="images/logo.jpeg" alt="">
-        <br><br>
-        <nav>
-            <a href="index.html">Accueil</a> -
-            <a href="events.html">Évènements</a> -
-            <a href="#">Ajouter un évènement</a> -
-            <a href="contact.html">Contact</a>
-        </nav>
-        <br>
-        <hr>
+      <img src="images/logo.jpeg" alt="Logotype" />
+      <br /><br />
+      <nav>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="events.html">Évènements</a></li>
+          <li><a href="add-event.html">Ajouter un événement</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <br />
+      <hr />
     </header>
-    <h1>Ajouter un évènement</h1>
-    <form action="" method="get">
+    <main>
+      <h1>Ajouter un évènement</h1>
+      <form action="" method="get">
         <div>
           <label for="title">Titre</label>
-          <input type="text" name="title" id="title" required>
+          <input type="text" name="title" id="title" required />
         </div>
         <div>
           <label for="description">Description </label>
-          <input type="text" name="description" id="description" required>
+          <input type="text" name="description" id="description" required />
         </div>
         <div>
-            <label for="Price">Prix </label>
-            <input type="number" name="Price" id="Price" required>
+          <label for="Price">Prix </label>
+          <input type="number" name="Price" id="Price" required />
         </div>
         <label for="photo">Photo de l'évènement:</label>
-        <input type="file"
-               id="photo" name="photo"
-               accept="image/png, image/jpeg">
+        <input
+          type="file"
+          id="photo"
+          name="photo"
+          accept="image/png, image/jpeg"
+        />
         <div>
-          <input type="submit" value="Créer un évènement">
+          <input type="submit" value="Créer un évènement" />
         </div>
       </form>
-      
+    </main>
     <footer>
-        <hr>
-        <a href="#">Mentions légales</a>
-        <a href="#">CGU</a>
+      <hr />
+      <a href="#">Mentions légales</a>
+      <a href="#">CGU</a>
     </footer>
-</body>
+  </body>
 </html>
